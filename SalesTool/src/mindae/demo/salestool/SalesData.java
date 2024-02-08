@@ -6,6 +6,7 @@ public class SalesData {
 	public void display() {
 		System.out.println("Data: ");
 		for(int i: data) {
+			
 			System.out.println("Next Value: " + i);
 		}
 	}
