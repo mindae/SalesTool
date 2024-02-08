@@ -1,10 +1,14 @@
 package mindae.demo.salestool;
 
+import java.util.Iterator;
+
 public class SalesData {
 	private int[] data = {0, 4, 42};
 	
 	public void display() {
-		System.out.println("TODO: implement sales data.display()");
+		for(int i=0;i<data.length;i++) {
+			System.out.println("");
+		}
 	}
 
 }
