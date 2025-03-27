@@ -13,6 +13,7 @@ public class SalesData {
 			sum+=i;
 		}
 		System.out.println("Sum is:: "+sum);
+		System.out.println("WRONG - Sum is:: "+sum);
 	}
 
 }
